@@ -1,6 +1,10 @@
 # MiniThemeSwitch
 
+[![release](https://img.shields.io/github/v/release/xf969038976/MiniThemeSwitch)](https://github.com/xf969038976/MiniThemeSwitch/releases/latest)
+
 一个 **37 KB** 的 Windows 浅色/深色自动切换小工具：常驻托盘，按两个时间点切换系统主题，支持开机自启。
+
+**[⬇ 下载最新版](https://github.com/xf969038976/MiniThemeSwitch/releases/latest)** —— 单个 exe，免安装，不需要 .NET SDK 或任何运行时。
 
 ![设置界面](screenshot.png)
 
