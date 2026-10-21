@@ -1,0 +1,6 @@
+*.lnk
+*.exe
+*.pdb
+bin/
+obj/
+.vs/
