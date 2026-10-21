@@ -2,7 +2,7 @@
 
 [![release](https://img.shields.io/github/v/release/xf969038976/MiniThemeSwitch)](https://github.com/xf969038976/MiniThemeSwitch/releases/latest)
 
-一个 **37 KB** 的 Windows 浅色/深色自动切换小工具：常驻托盘，按两个时间点切换系统主题，支持开机自启。
+一个 **44 KB** 的 Windows 浅色/深色自动切换小工具：常驻托盘，按两个时间点切换系统主题，支持开机自启。
 
 **[⬇ 下载最新版](https://github.com/xf969038976/MiniThemeSwitch/releases/latest)** —— 单个 exe，免安装，不需要 .NET SDK 或任何运行时。
 
@@ -12,12 +12,12 @@
 
 [Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) 很好用，但它的安装包 110 MB、装完占 426 MB，常驻内存约 100 MB——因为它把 .NET 运行时和 WinUI 3 整套框架都打包了进去，还带了 40 MB 的地图数据和 40 MB 的 ML 推理库。
 
-这个工具只做一件事：到点把主题切了。核心代码 900 行，exe 37 KB，不打包任何运行时（直接用 Windows 自带的 .NET Framework 4.8）。
+这个工具只做一件事：到点把主题切了。核心代码 900 行，exe 44 KB，不打包任何运行时（直接用 Windows 自带的 .NET Framework 4.8）。
 
 | | Auto Dark Mode | MiniThemeSwitch |
 | --- | --- | --- |
-| 安装包 | 110 MB | 37 KB（单文件，免安装） |
-| 磁盘占用 | 426 MB | 37 KB |
+| 安装包 | 110 MB | 44 KB（单文件，免安装） |
+| 磁盘占用 | 426 MB | 44 KB |
 | 常驻内存 | ~100 MB | ~29 MB |
 | 空闲 CPU | <1% | 0 ms / 分钟（实测） |
 
