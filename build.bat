@@ -7,7 +7,7 @@ if not exist "%DEST%" mkdir "%DEST%"
 
 "%CSC%" /nologo /target:winexe /optimize+ /codepage:65001 /win32icon:"%~dp0app.ico" ^
   /r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll ^
-  /out:"%DEST%\MiniThemeSwitch.exe" "%~dp0Program.cs"
+  /out:"%DEST%\MiniThemeSwitch.exe" "%~dp0Program.cs" "%~dp0AssemblyInfo.cs"
 
 if errorlevel 1 (
   echo Build failed.
